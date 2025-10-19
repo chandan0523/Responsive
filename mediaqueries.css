@@ -1,0 +1,116 @@
+@media only screen and (min-width:200px) and (max-width:600px) {
+  
+    
+
+    nav {
+    background-color: red;
+    padding: 10px 25px;
+  }
+
+  .nav1 img{
+    height: 30px;
+    width: 30px;
+  }
+
+  .nav1 h4{
+    font-size: 10px;
+  }
+
+
+  .nav2{
+    display: none;
+  }
+
+  .nav3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  
+  main{
+    padding-top: 50px;
+  }
+
+  .section1 .left h1{
+    font-size: 5vw;
+  }
+
+   .section1 .left h1{
+    font-size: 30px;
+  }
+
+  .section1{
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    /* gap: 30px; */
+    padding: 15px 30px;
+  }
+
+  .section1 .left, .section1 .right{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  .section .right .right-in{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width:1200px) {
+  
+  nav {
+    background-color: yellow;
+    padding: 12px 40px;
+  }
+
+
+  main{
+    padding-top: 80px;
+  }
+
+  .section1 .left h1{
+    font-size: 4vw;
+  }
+
+  .section1{
+    flex-direction: column-reverse;
+    /* align-items: center; */
+    /* gap: 30px; */
+    padding: 15px 30px;
+  }
+
+  .section1 .left, .section1 .right{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+  .section .right .right-in{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+
+  .section2 h1{
+    font-size: 15vw;
+    white-space: nowrap;
+  }
+
+  .section2 h3{
+    font-size: 6vw;
+    text-align: center;
+  }
+
+}
+
